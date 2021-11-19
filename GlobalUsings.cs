@@ -5,3 +5,4 @@ global using CommonBasicLibraries.BasicUIProcesses;
 global using CommonBasicLibraries.BasicDateTimeProcesses;
 global using Microsoft.AspNetCore.Components;
 global using System.Diagnostics.CodeAnalysis;
+global using Microsoft.Extensions.DependencyInjection;
