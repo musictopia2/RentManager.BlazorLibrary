@@ -1,5 +1,5 @@
 ﻿namespace RentManager.BlazorLibrary.ViewModels;
-public interface IEnterLeasetViewModel
+public interface IEnterLeaseViewModel
 {
     int RentAmount { get; set; }
     bool Visible { get; }

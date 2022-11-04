@@ -1,5 +1,5 @@
 ﻿namespace RentManager.BlazorLibrary.ViewModels;
-public class EnterLeaseViewModel : IEnterLeasetViewModel
+public class EnterLeaseViewModel : IEnterLeaseViewModel
 {
     public EnterLeaseViewModel(ILeaseStorage storage,
         ILeaseLength length,

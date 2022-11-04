@@ -7,7 +7,7 @@ public partial class EnterLeaseComponent
 #pragma warning restore IDE0075 // Simplify conditional expression
     [Inject]
     [AllowNull]
-    public IEnterLeasetViewModel DataContext { get; set; }
+    public IEnterLeaseViewModel DataContext { get; set; }
     protected override async Task OnInitializedAsync()
     {
         await DataContext.InitAsync();
